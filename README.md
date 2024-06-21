@@ -9,7 +9,7 @@ Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Lea
 
 [[Paper]](); [[Chinese Version]](); [[Official Version]]()
 
-**Contact:** dengpfan@gmail.com, peijialun@gmail.com
+**Contact:** jwxsics@gmail.com, peijialun@gmail.com
 
 ## Environment preparation
 
