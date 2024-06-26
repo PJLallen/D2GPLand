@@ -12,6 +12,7 @@ Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Lea
 **Contact:** jwxsics@gmail.com, peijialun@gmail.com
 
 ## Environment preparation
+Following [Segment Anything](https://github.com/facebookresearch/segment-anything), the code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. For D^2GPLand, `python=3.9`, `pytorch=1.12.0`, and `torchvision=0.12.0` are used.
 
 ## Dataset preparation
 
