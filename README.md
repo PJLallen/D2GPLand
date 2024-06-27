@@ -28,6 +28,11 @@ Following [Segment Anything](https://github.com/facebookresearch/segment-anythin
 If this helps you, please cite this work:
 
 ```
-Bibtex
+@inproceedings{pei2024land,
+  title={Depth-Driven Geometric Prompt Learning for Laparoscopic Liver Landmark Detection},
+  author={Pei, Jialun and Cui, Ruize and Li, Yaoqian and Si, Weixin and Qin, Jing and Heng, Pheng-Ann},
+  booktitle={MICCAI},
+  year={2024},
+}
 ```
 
