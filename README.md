@@ -1,6 +1,6 @@
 # D2GPLand [MICCAI'24]
 <div align=center>
-<img src="assets/Overview.jpg"  height=400 width=700>
+<img src="assets/Overview.jpg"  height=450 width=750>
 </div>
 
 Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Learning for Laparoscopic Liver Landmark Detection](https://arxiv.org/abs/2406.17858)"
