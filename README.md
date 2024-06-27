@@ -41,7 +41,7 @@ TEST_PATH = os.path.join(DATASET_ROOT, 'Test/')
 VAL_PATH = os.path.join(DATASET_ROOT, 'Val/')
 ```
 ## Pre-trained paths
-We provide the weights of our D2GPLand (with SAM-b and ResNet-34 as backbones) trained on the L3D Dataset [GOOgle Drive](https://drive.google.com/drive/folders/1Mll-izyMLoCnTxfW5LOJhzaThipnUSg0?usp=drive_link)
+We provide the weights of our D2GPLand (with SAM-b and ResNet-34 as backbones) trained on the L3D Dataset [Google Drive](https://drive.google.com/drive/folders/1Mll-izyMLoCnTxfW5LOJhzaThipnUSg0?usp=drive_link)
 
 ## Usage
 ### Train
@@ -67,8 +67,11 @@ python test.py --model_path {PATH_TO_THE_MODEL_WEIGHTS} \
   
 ## Acknowledgement
 This work is based on:
--[AdelaiDepth](https://github.com/aim-uofa/AdelaiDepth)
--[Segment Anything Model](https://github.com/facebookresearch/segment-anything)
+
+- [AdelaiDepth](https://github.com/aim-uofa/AdelaiDepth)
+- [Segment Anything Model](https://github.com/facebookresearch/segment-anything)
+
+Thanks them for their great work!
 
 ## Citation
 
