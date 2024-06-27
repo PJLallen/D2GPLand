@@ -14,18 +14,19 @@ This repository contains the code of MICCAI 2024 paper "[Depth-Driven Geometric 
 ## Environment preparation
 The code is tested on python 3.9.19, pytorch 2.0.1, and CUDA 11.7, change the versions below to your desired ones.
 1. Clone repository:
-   ```bash
-   git clone https://github.com/PJLallen/D2GPLand.git
+```shell
+git clone https://github.com/PJLallen/D2GPLand.git
 
-   cd D2GPLand
-   ```
+cd D2GPLand
+```
    
 2. Set up anaconda environment:
-  ```bash
-  # Create D2GPLand anaconda environment from YAML.file
-  conda env create -f D2GPLand.yaml
-  # Activate environment
-  conda activate D2GPLand
+```shell
+# Create D2GPLand anaconda environment from YAML.file
+conda env create -f D2GPLand.yaml
+# Activate environment
+conda activate D2GPLand
+```
 
 ## Dataset preparation
 
@@ -33,7 +34,7 @@ The code is tested on python 3.9.19, pytorch 2.0.1, and CUDA 11.7, change the ve
 - Currently we only release the test set of the L3D dataset: 
 ### Register datasets
 Change the path of the datasets as:
-```bash
+```shell
 DATASET_ROOT = 'D2GPLand/L3D/'
 TRAIN_PATH = os.path.join(DATASET_ROOT, 'Train/')
 TEST_PATH = os.path.join(DATASET_ROOT, 'Test/')
