@@ -1,4 +1,4 @@
-name: 2dlandmark
+name: D2GPLand
 channels:
   - defaults
 dependencies:
@@ -181,4 +181,3 @@ dependencies:
       - wrapt==1.14.1
       - yapf==0.40.1
       - zipp==3.18.1
-prefix: /home/licaizi/anaconda3/envs/2dlandmark
