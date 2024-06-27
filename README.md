@@ -14,7 +14,7 @@ Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Lea
 
 
 <div align=center>
-<img src="assets/Overview.jpg"  height=292 width=464>
+<img src="assets/Overview.jpg"  height=400 width=700>
 </div>
 
 
