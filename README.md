@@ -42,8 +42,8 @@ TRAIN_PATH = os.path.join(DATASET_ROOT, 'Train/')
 TEST_PATH = os.path.join(DATASET_ROOT, 'Test/')
 VAL_PATH = os.path.join(DATASET_ROOT, 'Val/')
 ```
-## Pre-trained paths
-We provide the weights of our D2GPLand with SAM-b and ResNet-34 as backbones: [Google Drive](https://drive.google.com/drive/folders/1Mll-izyMLoCnTxfW5LOJhzaThipnUSg0?usp=drive_link)
+## Pre-trained weights
+D2GPLand with SAM-b and ResNet-34 as backbones: [Google Drive](https://drive.google.com/drive/folders/1Mll-izyMLoCnTxfW5LOJhzaThipnUSg0?usp=drive_link)
 
 ## Usage
 ### Train
