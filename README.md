@@ -1,19 +1,22 @@
 # D2GPLand [MICCAI'24]
 <div align=center>
-<img src="assets/Overview.jpg"  height=584 width=928>
+<img src="assets/Figure1.png"  height=230 width=750>
 </div>
+
 
 Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Learning for Laparoscopic Liver Landmark Detection](https://arxiv.org/abs/2406.17858)"
 
 [Jialun Pei*](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), Ruize Cui*, Yaoqian Li, [Weixin Si](https://scholar.google.com/citations?user=E4efwTgAAAAJ&hl=zh-CN&oi=ao), [Jing Qin](https://harry-qinjing.github.io/), and [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=zh-CN)
 
-<div align=center>
-<img src="assets/Figure1.png"  height=230 width=750>
-</div>
-
 [[Paper]](https://arxiv.org/abs/2406.17858); [[Chinese Version]](); [[Official Version]]()
 
 **Contact:** jwxsics@gmail.com, peijialun@gmail.com
+
+
+<div align=center>
+<img src="assets/Overview.jpg"  height=292 width=464>
+</div>
+
 
 ## Environment preparation
 The code is tested on python 3.9.19, pytorch 2.0.1, and CUDA 11.7, change the versions below to your desired ones.
