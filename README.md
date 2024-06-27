@@ -1,5 +1,5 @@
 # D2GPLand [MICCAI'24]
-Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Learning for Laparoscopic Liver Landmark Detection](https://arxiv.org/abs/2406.17858)"
+This repository contains the code of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Learning for Laparoscopic Liver Landmark Detection](https://arxiv.org/abs/2406.17858)"
 
 [Jialun Pei](https://scholar.google.com/citations?user=1lPivLsAAAAJ&hl=en), Ruize Cui, Yaoqian Li, [Weixin Si*](https://scholar.google.com/citations?user=E4efwTgAAAAJ&hl=zh-CN&oi=ao), [Jing Qin](https://harry-qinjing.github.io/), and [Pheng-Ann Heng](https://scholar.google.com/citations?user=OFdytjoAAAAJ&hl=zh-CN)
 
@@ -12,16 +12,62 @@ Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Lea
 **Contact:** jwxsics@gmail.com, peijialun@gmail.com
 
 ## Environment preparation
-Following [Segment Anything](https://github.com/facebookresearch/segment-anything), the code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. For D^2GPLand, `python=3.9`, `pytorch=1.12.0`, and `torchvision=0.12.0` are used.
+The code is tested on python 3.9.19, pytorch 2.0.1, and CUDA 11.7, change the versions below to your desired ones.
+1. Clone repository:
+   ```bash
+   git clone https://github.com/PJLallen/D2GPLand.git
+
+   cd D2GPLand
+   ```
+   
+2. Set up anaconda environment:
+  ```bash
+  # Create D2GPLand anaconda environment from YAML.file
+  conda env create -f D2GPLand.yaml
+  # Activate environment
+  conda activate D2GPLand
 
 ## Dataset preparation
 
 ### Download the datasets and annotation files
-
+- Currently we only release the test set of the L3D dataset: 
 ### Register datasets
+Change the path of the datasets as:
+```bash
+DATASET_ROOT = 'D2GPLand/L3D/'
+TRAIN_PATH = os.path.join(DATASET_ROOT, 'Train/')
+TEST_PATH = os.path.join(DATASET_ROOT, 'Test/')
+VAL_PATH = os.path.join(DATASET_ROOT, 'Val/')
+```
+## Pre-trained paths
+We provide the weights of our D2GPLand (with SAM-b and ResNet-34 as backbones) trained on the L3D Dataset [GOOgle Drive](https://drive.google.com/drive/folders/1Mll-izyMLoCnTxfW5LOJhzaThipnUSg0?usp=drive_link)
 
+## Usage
+### Train
 
+```shell
+python train.py --data_path {PATH_TO_DATASET} \
+--batch_size 4 --lr 1e-4 --decay_lr 1e-6 --epoch 60
+```
+
+Please replace {PATH_TO_DATASET} to your own dataset dir
+
+### Eval
+
+```shell
+python test.py --model_path {PATH_TO_THE_MODEL_WEIGHTS} \
+  --prototype_path {PATH_TO_THE_PROTOTYPE_WEIGHTS} \
+  --data_path {PATH_TO_DATASET}
+```
+
+- `{PATH_TO_THE_MODEL_WEIGHTS}`: please put the pre-trained model weights here
+- `{PATH_TO_THE_PROTOTYPE_WEIGHTS}`: please put the pre-trained prototype weights here
+- `{PATH_TO_DATASET}`: please put the dataset dir here
+  
 ## Acknowledgement
+This work is based on:
+-[AdelaiDepth](https://github.com/aim-uofa/AdelaiDepth)
+-[Segment Anything Model](https://github.com/facebookresearch/segment-anything)
 
 ## Citation
 
