@@ -79,7 +79,7 @@ Thanks them for their great work!
 
 If this helps you, please cite this work:
 
-```
+```bibtex
 @inproceedings{pei2024land,
   title={Depth-Driven Geometric Prompt Learning for Laparoscopic Liver Landmark Detection},
   author={Pei, Jialun and Cui, Ruize and Li, Yaoqian and Si, Weixin and Qin, Jing and Heng, Pheng-Ann},
