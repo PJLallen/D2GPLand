@@ -13,7 +13,7 @@ Official Implementation of MICCAI 2024 paper "[Depth-Driven Geometric Prompt Lea
 **Contact:** jwxsics@gmail.com, peijialun@gmail.com
 
 
-## Environment preparation
+## 🔧 Environment preparation
 The code is tested on python 3.9.19, pytorch 2.0.1, and CUDA 11.7, change the versions below to your desired ones.
 1. Clone repository:
 ```shell
@@ -30,7 +30,7 @@ conda env create -f D2GPLand.yaml
 conda activate D2GPLand
 ```
 
-## Dataset preparation
+## 📈 Dataset preparation
 
 ### Download proposed L3D dataset and annotation files
 - L3D dataset: [Google Drive](https://drive.google.com/drive/folders/1jP4m7_0oP6-srTknS5NAp0Dr8gzkydrI?usp=sharing)
@@ -42,10 +42,10 @@ TRAIN_PATH = os.path.join(DATASET_ROOT, 'Train/')
 TEST_PATH = os.path.join(DATASET_ROOT, 'Test/')
 VAL_PATH = os.path.join(DATASET_ROOT, 'Val/')
 ```
-## Pre-trained weights
+## 🚀 Pre-trained weights
 D2GPLand with SAM-b and ResNet-34: [Google Drive](https://drive.google.com/drive/folders/1Mll-izyMLoCnTxfW5LOJhzaThipnUSg0?usp=drive_link)
 
-## Usage
+## ⚙️ Usage
 ### Train
 
 ```shell
@@ -75,7 +75,7 @@ This work is based on:
 
 Thanks them for their great work!
 
-## Citation
+## 📚 Citation
 
 If this helps you, please cite this work:
 
