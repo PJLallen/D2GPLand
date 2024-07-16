@@ -32,7 +32,7 @@ conda activate D2GPLand
 
 ## 📈 Dataset preparation
 
-### Download proposed L3D dataset and annotation files
+### 💥 Download proposed L3D dataset
 - L3D dataset: [Google Drive](https://drive.google.com/drive/folders/1jP4m7_0oP6-srTknS5NAp0Dr8gzkydrI?usp=sharing)
 ### Register datasets
 Change the path of the datasets as:
