@@ -85,6 +85,7 @@ If this helps you, please cite this work:
   author={Pei, Jialun and Cui, Ruize and Li, Yaoqian and Si, Weixin and Qin, Jing and Heng, Pheng-Ann},
   booktitle={MICCAI},
   year={2024},
+  organization={Springer}
 }
 ```
 
