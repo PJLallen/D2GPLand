@@ -26,8 +26,6 @@ class LandmarkDataset(Dataset):
         image = load_image(img_file_name)
         mask = load_mask(img_file_name)
         depth = load_depth(img_file_name)
-        if ssim(image, depth) < 0.5:
-            depth = np.zeros((1024, 1024)).astype(np.uint8)
         image = self.transform(image)
         mask = self.transform(mask.transpose(1, 2, 0))
         depth = self.transform(depth)
@@ -123,7 +121,7 @@ def load_json(path):
             pt2 = tuple(map(int, points[i]))
 
             # Draw line on image
-            cv2.line(image, pt1, pt2, color, 30)
+            cv2.line(image, pt1, pt2, color, 35)
 
     return image
 
