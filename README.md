@@ -1,4 +1,4 @@
-# D2GPLand [MICCAI'24][Oral]
+# D2GPLand [MICCAI'24][Oral, Finalist]
 
 <div align=center>
 <img src="assets/Figure1.png"  height=230 width=750>
