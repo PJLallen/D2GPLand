@@ -26,8 +26,6 @@ class LandmarkDataset(Dataset):
         image = load_image(img_file_name)
         mask = load_mask(img_file_name)
         depth = load_depth(img_file_name)
-        if ssim(image, depth) < 0.5:
-            depth = np.zeros((1024, 1024)).astype(np.uint8)
         image = self.transform(image)
         mask = self.transform(mask.transpose(1, 2, 0))
         depth = self.transform(depth)
@@ -46,7 +44,7 @@ def load_image(path):
 
 
 def load_depth(path):
-    img = cv2.imread(str(path).replace('images', 'depth').replace('jpg', 'png'), 0)
+    img = cv2.imread(str(path).replace('images', 'depth_AdelaiDepth').replace('jpg', 'png'), 0)
     img = cv2.resize(img, (1024, 1024))
 
     return img.astype(np.uint8)
