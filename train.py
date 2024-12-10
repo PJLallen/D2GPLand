@@ -25,7 +25,7 @@ def main(save_path, args):
         T.ToTensor(),
     ])
     train_dataset = LandmarkDataset(train_file, transform=train_transform, mode='train')
-    val_dataset = LandmarkDataset(val_file, transform=val_transform, mode='val')
+    val_dataset = LandmarkDataset(test_file, transform=val_transform, mode='val')
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, drop_last=True)
     val_loader = DataLoader(val_dataset, batch_size=1, shuffle=False)
 
