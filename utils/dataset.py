@@ -13,8 +13,7 @@ class LandmarkDataset(Dataset):
 
         if transform:
             self.transform = transform
-        else:
-            self.transform = T.ToTensor()
+        self.transform = T.ToTensor()
 
         self.mode = mode
 
