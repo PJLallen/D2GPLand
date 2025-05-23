@@ -118,8 +118,8 @@ def main(save_path, args):
         print(np.mean(mDice))
         if np.mean(mDice) > best_dice:
             best_dice = np.mean(mDice)
-            torch.save(model.state_dict(), save_path + "best_model_path.pth")
-            torch.save(model.state_dict(), save_path + "best_prototype_path.pth")
+            torch.save({'model': model.state_dict(),}, "best_model_path.pth")
+            torch.save({'model': edge_prototypes_model.state_dict(),}, "best_prototype_path.pth")
         print("best dice is:{:.4f}".format(best_dice))
     scheduler.step()
 
