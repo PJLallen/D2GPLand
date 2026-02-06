@@ -13,8 +13,8 @@ Official Implementation of MICCAI-2024 Oral paper "[Depth-Driven Geometric Promp
 **Contact:** wx.si@siat.ac.cn, peijialun@gmail.com
 
 ## 📰 **News**
-* [2025/6] Our efficient liver landmark detection model TopoNet (D2GPLandV2) has been accepted by MICCAI2025. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-032-05127-1_56);[[Code]](https://github.com/cuiruize/TopoNet).
-* [2026/1] Our Journal version D2GPLand++ has been accepted by Medical Image Analysis. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1361841526000095); [[Code]](https://github.com/cuiruize/D2GPLand-Plus)；[[Data: L3D2K]](https://drive.google.com/drive/folders/1OFPQ97dAza-ZMQlukSBqL2x96ULpkJvR?usp=sharing).
+* [2026/1] Our Journal version D2GPLand++ has been accepted by Medical Image Analysis. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1361841526000095); [[Code]](https://github.com/cuiruize/D2GPLand-Plus); [[Data: L3D2K]](https://drive.google.com/drive/folders/1OFPQ97dAza-ZMQlukSBqL2x96ULpkJvR?usp=sharing).
+* [2025/6] Our efficient liver landmark detection model TopoNet (D2GPLandV2) has been accepted by MICCAI2025. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-032-05127-1_56); [[Code]](https://github.com/cuiruize/TopoNet).
 
 
 ## 🔧 Environment preparation
